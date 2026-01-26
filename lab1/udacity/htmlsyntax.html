@@ -1,0 +1,20 @@
+<!-- The HTML Document
+Every HTML document you create or load is derived from this basic format:
+
+Your browser does not support the video tag. Click here(opens in a new tab) to watch this animation.
+You can think of it as a template. And, following this template will help ensure that the page is displayed as the developer (you) intended. It not only says what should be displayed, but also includes relevant information that tells the browser how to display it.
+
+This template can be broken down into 3 parts:
+
+DOCTYPE: Describes the type of HTML. While there are technically different types, for 99.999% of the HTML you'll write, you’ll likely be fine with <!DOCTYPE html>.
+<head>: Describes meta information about the site, such as the title, and provides links to scripts and stylesheets the site needs to render and behave correctly.
+<body>: Describes the actual content of the site that users will see.
+Omitting some of this information doesn't necessarily mean that the page won't be displayed. In fact, your browser will assume certain parts of the template exist even if you accidentally leave them out. Take this line of HTML for example:
+
+<h1>This is a heading</h1>
+If you create an HTML file with only this line, open the file in any modern browser, and inspect the page with developer tools, you’ll see that certain parts of the basic HTML document format were assumed:
+
+The view from the Elements panel in Developer Tools when you omit all but `<h1>...</h1>`. (Notice that an empty `<head>` has been created for you.)
+The view from the Elements panel in Developer Tools when you omit all but <h1>...</h1>. (Notice that an empty <head> has been created for you.)
+
+That being said, this is not guaranteed behavior. Older browsers can be unpredictable, and you won’t know what browser your visitors will decide to use. It’s good practice to include all the basic parts of the template so that you aren’t relying on the guesswork of browsers to display your sites correctly. -->
