@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'Quell';
+  src: url('fonts/quelllinear-extrabold.otf') format('opentype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+.intro{
+    display: flex;
+    position: absolute;
+    top: 250px;
+    flex-direction: column;
+    gap: 5px;
+    left: 400px;
+}
+
+.logo{
+    font-family: 'Quell', sans-serif;
+    font-size: 50px;
+    color: #0967ff;
+    margin: 0%;
+}
+
+.text{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin: 0%;
+
+}
+
+body{
+    background-color: #F6F6F6;
+}
+
+.login{
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    background-color: white;
+    flex-direction: column;
+    gap: 5px;
+    top: 200px;
+    left: 800px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+
+.email{
+    font-size: 14px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 300px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+
+}
+
+.password{
+    font-size: 14px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 300px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.enter{
+    margin-top: 10px;
+    background-color: #0967ff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    justify-content: center;
+    width: 310px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px; 
+
+}
+
+.forgotpass{
+    background-color: white;
+    color:#0967ff;
+    padding: 10px;
+    border: none;
+    font-size: 14px;
+}
+
+.newacc{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;    
+    border: none;
+    padding: 10px;
+    background-color: #43b72a;
+    border-radius: 8px;
+    color: white;
+    width: 310px;
+    justify-content: center;
+}
+
