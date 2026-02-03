@@ -5,26 +5,37 @@
   font-style: normal;
 }
 
-.intro{
+.container{
+    width: 100%;
+    min-height: 100vh; 
     display: flex;
-    position: absolute;
-    top: 250px;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
     gap: 5px;
-    left: 400px;
+}
+
+.intro{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
 }
 
 .logo{
     font-family: 'Quell', sans-serif;
-    font-size: 50px;
+    font-size: 60px;
     color: #0967ff;
     margin: 0%;
+    align-self: start;
 }
 
 .text{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 24px;
     margin: 0%;
+    text-align: left;
 
 }
 
@@ -33,32 +44,40 @@ body{
 }
 
 .login{
-    border: none;
-    border-radius: 10px;
-    position: absolute;
-    background-color: white;
+    margin-left: 50px;
+    display: flex;
     flex-direction: column;
-    gap: 5px;
-    top: 200px;
-    left: 800px;
-    padding: 20px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+    align-items: center;
+    position: relative;
+
+}
+
+.line{
+    width: 100%;
+
 }
 
 .form{
+    font-family:Arial, Helvetica, sans-serif;
+    width: 400px;
     display: flex;
     flex-direction: column;
-    gap: 5px;
-    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px 40px;
+    justify-content: center;
     align-items: center;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    gap: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
 }
 
 .email{
     font-size: 14px;
     margin-top: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
+    padding: 10px 10px 10px 10px;
     width: 300px;
     border: 2px solid rgba(0, 0, 0, 0.2);
     border-radius: 5px;
@@ -68,9 +87,7 @@ body{
 .password{
     font-size: 14px;
     margin-top: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
+    padding: 10px 10px 10px 10px;
     width: 300px;
     border: 2px solid rgba(0, 0, 0, 0.2);
     border-radius: 5px;
@@ -84,7 +101,7 @@ body{
     border: none;
     border-radius: 8px;
     justify-content: center;
-    width: 310px;
+    width: 100%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px; 
 
@@ -94,6 +111,7 @@ body{
     background-color: white;
     color:#0967ff;
     padding: 10px;
+    margin: 0 0 0 0;
     border: none;
     font-size: 14px;
 }
@@ -103,10 +121,21 @@ body{
     font-size: 16px;    
     border: none;
     padding: 10px;
+    margin: 10px 0 0 0;
     background-color: #43b72a;
     border-radius: 8px;
     color: white;
-    width: 310px;
+    width: 70%;
     justify-content: center;
 }
 
+.page{
+    position: absolute; 
+    top: 100%;          
+    margin-top: 20px;   
+    width: 400px;      
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    white-space: nowrap; 
+}
