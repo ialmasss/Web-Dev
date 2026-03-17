@@ -1,6 +1,6 @@
 import math
 
 a = int(input());
-b = int(input());
+c = int(input());
 
-print(((a**2) + (b**2))**0.5);
+print(((a**2) + (c**2))**0.5);
