@@ -1,0 +1,15 @@
+nav {
+  padding: 12px 20px;
+  background: #333;
+  display: flex;
+  gap: 16px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a.active {
+  text-decoration: underline;
+}

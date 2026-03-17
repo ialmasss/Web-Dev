@@ -1,0 +1,19 @@
+.page {
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card p {
+  font-size: 12px;
+  margin: 4px 0 0;
+}

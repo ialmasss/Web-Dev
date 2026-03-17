@@ -1,0 +1,11 @@
+<div class="container">
+  <h2>Photos of Album #{{ albumId }}</h2>
+  <button [routerLink]="['/albums', albumId]">Back to Detail</button>
+  
+  <div class="photo-grid">
+    <div class="photo-card" *ngFor="let photo of photos">
+      <img [src]="photo.thumbnailUrl" [alt]="photo.title">
+      <p class="photo-title">{{ photo.title }}</p>
+    </div>
+  </div>
+</div>
